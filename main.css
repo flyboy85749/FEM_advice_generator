@@ -6,11 +6,16 @@ body {
   font-weight: 800;
   font-style: normal;
   background-color: hsl(218, 23%, 16%);
+  margin: 0;
+
 }
 
 .advice {
   background-color: hsl(217, 19%, 24%);
   color: hsl(193, 38%, 86%);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   padding: 1.5rem 1rem;
   border-radius: 10px;
@@ -24,10 +29,22 @@ body {
   color: hsl(150, 100%, 66%);
   letter-spacing: 0.2rem;
   margin-bottom: 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advice-text {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
 }
 
 .divider {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -38,7 +55,7 @@ body {
 
 .dice {
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: hsl(150, 100%, 66%);
@@ -48,6 +65,8 @@ body {
 
 .dice:hover {
   cursor: pointer;
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+
 }   
 
 .attribution {
